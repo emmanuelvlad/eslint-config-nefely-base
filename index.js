@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		"./rules/base"
+		"./rules/base",
 	].map(require.resolve),
 
 	parserOptions: {
