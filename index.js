@@ -1,7 +1,10 @@
 module.exports = {
 	extends: [
-		"./rules/base",
-	].map(require.resolve),
+		...([
+			"./rules/base",
+		].map(require.resolve)),
+		...["plugin:import/recommended"],
+	],
 
 	parserOptions: {
 		"sourceType": "module",

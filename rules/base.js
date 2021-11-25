@@ -38,6 +38,7 @@ module.exports = {
 		],
 		"no-constant-condition": errorInProduction,
 		"import/order": ["error", { "newlines-between": "always" }],
+		"import/newline-after-import": "error",
 		"quote-props": ["error", "consistent"],
 		"no-unreachable": errorInProduction,
 		"curly": ["error", "multi-line", "consistent"],
